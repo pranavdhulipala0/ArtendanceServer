@@ -63,8 +63,8 @@ app.post('/getData', (req,res)=>{
     var day = d.getDate();
 
     var dateString = year + "-" + month + "-" + day;
-
-    mod.find({time: dateString},(err,data)=>{
+// time: dateString
+    mod.find({},(err,data)=>{
         if(data===null){
             res.status(201);
             res.send("Absent!");
