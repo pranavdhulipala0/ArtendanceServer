@@ -104,6 +104,6 @@ app.listen(5000,()=>{
     console.log("Server is up!");
 });
 
-module.export = app;
+module.exports = app;
 
 
