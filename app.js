@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 app.use(cors());
 
-app.use(express.json());
+// app.use(express.json());
 
 async function run(){
     await mongoose.connect("mongodb+srv://artendance:Qwerty123@cluster0.lvtxm2j.mongodb.net/Artendance?retryWrites=true&w=majority",(err)=>{
