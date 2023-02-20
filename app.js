@@ -4,7 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 app.use(cors({
-    options: "https://artendance.netlify.app/"
+    options: "https://artendance.netlify.app"
 }));
 
 
